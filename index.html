@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Quiz-intro</title>
+<script>
+//custom alertfunction customAlert(msg,duration)
+function customAlert(msg,duration)
+{
+ var styler = document.createElement("div");
+  styler.setAttribute("style","border: solid 5px #fff;width:50%;height:auto;margin-left:50px;margin-top:50px;background-color:#bbb;color:#9c1de2;border-radius:3%;text-align:center;");
+ styler.innerHTML = "<h1>"+msg+"</h1>";
+ setTimeout(function()
+ {
+   styler.parentNode.removeChild(styler);
+ },duration);
+ document.body.appendChild(styler);
+}
+  function caller()
+  {
+    customAlert("Happy New Year!","2000");
+  }
+</script>
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+<!--#b3045e-->
+  <body onload="caller()" style="background-color: #3877c7;">
+    <div class="i-index">
+<div class="i-naslov">
+  <h1 style="color: #fff;">Krhko je znanje...</h1>
+</div>
+  <div class="i-button">
+<button class="i-quiz"  style="color: #3877c7;" type="button" onclick="window.location.href='quiz.html'">Quiz</button>
+  </div>
+  </div>
+  </body>
+</html>

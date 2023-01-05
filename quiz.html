@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+ <!-- section div -->
+<div class= "container"> 
+ <!-- The dots/buttons -->
+<div class= "butonz">
+  <button id="d1" class="dot" onclick="currentSlide(1)">1</button>
+  <button id="d2" class="dot" onclick="currentSlide(2)">2</button>
+  <button id="d3" class="dot" onclick="currentSlide(3)">3</button>
+  <button id="d4" class="dot" onclick="currentSlide(4)">4</button>
+</div> 
+ <br>
+ 
+
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1. pitanje: Što prevladava na ovoj slici?<br>
+	Potrebnih odgovora: <span id="sp1"></span></div>
+<div class="question-buttons">
+<button id="q11" class="butt a" value= "voda" onclick="check11()">voda</button>
+<button id="q12" class="butt a" value= "kamen" onclick="check11()">kamen</button>
+<button id="q13" class="butt a" value= "mačka" onclick="check11()">mačka</button>
+<button id="q14" class="butt a" value= "oblaci" onclick="check11()">oblaci</button>
+<button id="q15" class="butt a" value= "žutilo" onclick="check11()">žutilo</button>
+<button id="q16" class="butt a" value= "zelenilo" onclick="check11()">zelenilo</button>
+<button id="q17" class="butt a" value= "nebo" onclick="check11()">nebo</button>
+<button id="q18" class="butt a" value= "cvijet" onclick="check11()">cvijet</button>
+</div>	
+	
+    <img src="quizpcs/img1.jpg" style="width:100%">
+	<div class="picked" id="pick1" >
+	
+	</div>
+	<!-- Next and previous buttons &#10094;-->
+	<div class="pn">
+  <!--<button class="prev" id="pr1" onclick="plusSlides(-1)">prev.</button> -->
+  <button class="next" id="ne1" onclick="nextQuestion1()">next</button>
+	</div>
+	
+    
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext" style="color: yellow;";>2. pitanje: Što je ovo?<br>
+	Potrebnih odgovora: <span id="sp2"></span></div> 
+
+<div class="question-buttons">
+<button id="q21" class="butt b" value= "cvijet" onclick="check12()">cvijet</button>
+<button id="q22" class="butt b" value= "kamen" onclick="check12()">kamen</button>
+<button id="q23" class="butt b" value= "mačka" onclick="check12()">mačka</button>
+<button id="q24" class="butt b" value= "voda" onclick="check12()">voda</button>
+<button id="q25" class="butt b" value= "žutilo" onclick="check12()">žutilo</button>
+<button id="q26" class="butt b" value= "zelenilo" onclick="check12()">zelenilo</button>
+<button id="q27" class="butt b" value= "nebo" onclick="check12()">nebo</button>
+<button id="q28" class="butt b" value= "izvor" onclick="check12()">izvor</button>
+</div>
+
+    <img src="quizpcs/img2.jpg" style="width:100%">
+	<div class="picked" id="pick2" >
+	
+	</div>
+	<!-- Next and previous buttons &#10094;-->
+	<div class="pn">
+  <button class="prev" id="pr2" onclick="plusSlides(-1)">pre.</button>
+  <button class="next" id="ne2" onclick="nextQuestion2()">next</button>
+  </div>
+  
+  </div>
+ 
+  <div class="mySlides fade">
+    <div class="numbertext" style="color: yellow;">3. pitanje: Što vidimo u prvom planu?<br>
+		 
+    Potrebnih odgovora: <span id="sp3"></span></div>
+<div class="question-buttons">
+<button id="q31" class="butt c" value= "nebo" onclick="check13()">nebo</button>
+<button id="q32" class="butt c" value= "kamen" onclick="check13()">kamen</button>
+<button id="q33" class="butt c" value= "maslačak" onclick="check13()">maslačak</button>
+<button id="q34" class="butt c" value= "voda" onclick="check13()">voda</button>
+<button id="q35" class="butt c" value= "ovca" onclick="check13()">ovca</button>
+<button id="q36" class="butt c" value= "trava" onclick="check13()">trava</button>
+<button id="q37" class="butt c" value= "pas" onclick="check13()">pas</button>
+<button id="q38" class="butt c" value= "cvijet" onclick="check13()">cvijet</button>
+</div>
+    <img src="quizpcs/img3.jpg" style="width:100%">
+	<div class="picked" id="pick3" >
+	
+	</div>
+<!-- Next and previous buttons &#10094;-->
+<div class="pn">
+  <button class="prev" id="pr3" onclick="plusSlides(-1)">pre.</button>
+  <button class="next" id="ne3" onclick="nextQuestion3()">next</button>
+ </div>
+ 
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4. pitanje: Što vidimo na slici?<br>
+	
+	
+    Potrebnih odgovora: <span id="sp4"></span></div>
+	
+<div class="question-buttons">
+<button id="q41" class="butt d" value= "kamen" onclick="check14()">kamen</button>
+<button id="q42" class="butt d" value= "drveće" onclick="check14()">drveće</button>
+<button id="q43" class="butt d" value= "mačka" onclick="check14()">mačka</button>
+<button id="q44" class="butt d" value= "voda" onclick="check14()">voda</button>
+<button id="q45" class="butt d" value= "žutilo" onclick="check14()">žutilo</button>
+<button id="q46" class="butt d" value= "slon" onclick="check14()">slon</button>
+<button id="q47" class="butt d" value= "nebo" onclick="check14()">nebo</button>
+<button id="q48" class="butt d" value= "pokemon" onclick="check14()">pokemon</button>
+</div>
+  <img src="quizpcs/img4.jpg" style="width:100%">
+  <div class="picked" id="pick4">
+	
+	</div>
+<!-- Next and previous buttons &#10094;-->
+<div class="pn">
+  <button class="prev" id="pr4" onclick="plusSlides(-1)">pre.</button> 
+  <button class="next" id="ne4" onclick="nextQuestion4()">next</button>
+</div>
+
+ </div>   
+ </div>
+ </div>
+<script src="script.js"></script>
+  </body>
+</html>
+
+  
+  
+ 
+  
+
+
+
+
+
+ 
+
+
+
