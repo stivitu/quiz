@@ -118,17 +118,17 @@ document.getElementById("pick4").textContent= userAnswer;
 function check21(){
 
 if(userAnswer.length == 0)
-{alert("Odaberite odgovor!")
+{alert("Choose an answer!")
 	plusSlides(-1);}
 else if(userAnswer.length > randomNumber1){
-	alert("Odabrali ste previše odgovora, pokušajte ponovo!");
+	alert("You have selected too many answers, try again!");
 	plusSlides(-1);
 	userAnswer.length=0;
 	document.getElementById("pick1").textContent= null;
 	
 	}
 else if(userAnswer.length < randomNumber1){
-	alert("Odaberite, potreban broj odgovora, pokušajte ponovo!");
+	alert("Select, the required number of answers, try again!");
 	plusSlides(-1);
 	userAnswer.length=0;
     document.getElementById("pick1").textContent= null;	
@@ -138,17 +138,17 @@ else if(userAnswer.length < randomNumber1){
 function check22(){
 	
 if(userAnswer.length == 0)
-{alert("Odaberite odgovor!")
+{alert("Choose an answer!")
 		plusSlides(-1);}	
 else if(userAnswer.length > randomNumber2){
-	alert("Odabrali ste previše odgovora, pokušajte ponovo!");
+	alert("You have selected too many answers, try again!");
 	plusSlides(-1);
 	userAnswer.length=0;
 	document.getElementById("pick2").textContent= null;
 	
 	}
 else if(userAnswer.length < randomNumber2){
-	alert("Odaberite, potreban broj odgovora, pokušajte ponovo!");
+	alert("Select, the required number of answers, try again!");
 	plusSlides(-1);
 	userAnswer.length=0;
 	document.getElementById("pick2").textContent= null;
@@ -158,16 +158,16 @@ else if(userAnswer.length < randomNumber2){
 
 function check23(){	
 if(userAnswer.length == 0)
-{alert("Odaberite odgovor!")
+{alert("Choose an answer!")
 	plusSlides(-1);}
 else if(userAnswer.length > randomNumber3){	
-alert("Odabrali ste previše odgovora, pokušajte ponovo!");
+alert("You have selected too many answers, try again!");
 	plusSlides(-1);
 	userAnswer.length=0;
 	document.getElementById("pick3").textContent= null;
 	}	
 else if(userAnswer.length < randomNumber3){
-	alert("Odaberite, potreban broj odgovora, pokušajte ponovo!");
+	alert("Select, the required number of answers, try again!");
 	plusSlides(-1);
 	userAnswer.length=0;
 	document.getElementById("pick3").textContent= null;
@@ -175,16 +175,16 @@ else if(userAnswer.length < randomNumber3){
 
 function check24(){
 if(userAnswer.length== 0)
-{alert("Odaberite odgovor!")
+{alert("Choose an answer!")
 	plusSlides(0);}
 else if(userAnswer.length > randomNumber4){	
-  alert("Odabrali ste previše odgovora, pokušajte ponovo!");
+  alert("You have selected too many answers, try again!");
 	plusSlides(0);
 	userAnswer.length=0;
 	document.getElementById("pick4").textContent= null;
 	}	
 else if(userAnswer.length < randomNumber4){	
-alert("Odaberite, potreban broj odgovora, pokušajte ponovo!");
+alert("Select, the required number of answers, try again!");
 	plusSlides(0);
 	userAnswer.length=0;
 	document.getElementById("pick4").textContent= null;
@@ -266,15 +266,15 @@ userAnswer.length= 0;
 function score(){
 	addEventListener("on click", audio1.play());
 	document.getElementById("d4").style.backgroundColor = "green";
-	if(userAnswerGlobal.length==0){alert("Niste pogodili nijedan odgovor, pokušajte ponovo!");
+	if(userAnswerGlobal.length==0){alert("You did not guess any answer, try again!");
 	                               }
-	else if(userAnswerGlobal.length==1){alert("Vaš učinak je 25%, pokušajte ponovo!");
+	else if(userAnswerGlobal.length==1){alert("Your score is 25%, try again!");
 	                                    }
-	else if(userAnswerGlobal.length==2){alert("Vaš učinak je 50%, pokušajte ponovo!");
+	else if(userAnswerGlobal.length==2){alert("Your score is 50%, try again!");
       }
-	else if(userAnswerGlobal.length==3){alert("Vaš učinak je 75%, pokušajte ponovo!");
+	else if(userAnswerGlobal.length==3){alert("Your score is 75%, try again!");
 	   }
-    else if(userAnswerGlobal.length==4){alert("Svi odgovori su točni, čestitamo!");};
+    else if(userAnswerGlobal.length==4){alert("All answers are correct, congratulations!");};
 };	
 
 //on click okidanje provjere 
