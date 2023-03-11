@@ -38,10 +38,10 @@ document.getElementById("sp3").innerText= randomNumber3;
 document.getElementById("sp4").innerText= randomNumber4;
 
 //answer engine variables
-var rightAnswer1=["oblaci", "zelenilo", "nebo"];
-var rightAnswer2= ["izvor", "kamen","voda"];
-var rightAnswer3= ["maslačak", "trava", "cvijet"];
-var rightAnswer4= ["drveće", "žutilo", "nebo"];
+var rightAnswer1=["cloud", "green", "sky"];
+var rightAnswer2= ["spring", "rock","water"];
+var rightAnswer3= ["daisy", "grass", "flower"];
+var rightAnswer4= ["trees", "yellow", "sky"];
 
 
 var userAnswerGlobal=["true","true","true","true"];
