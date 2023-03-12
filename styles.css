@@ -133,14 +133,14 @@ max-width: 100px;
 @media (max-width:1000px){}
 */ 
 @media (max-width:900px){
-.i-naslov h1 {font-height=22px;}
+h1 {font-height=22px;}
 .prev, .next {
 margin-top: 70px;
 
 padding: 12px;	
 }}
 @media (max-width:750px){
-.i-naslov h1 {font-height=22px;}
+h1 {font-height=2.5rem;}
 .prev, .next {
 margin-top: 70px;
 margin-left: 30px;
@@ -162,7 +162,7 @@ padding: 10px;
   font-size: 25px;}
 }  
 @media (max-width:500px){
-.i-naslov h1 {font-height=22px;}
+h1 {font-height=2rem;}
 .container {
 display: block;
   margin-left: -6px; 
@@ -192,7 +192,7 @@ padding: 10px;}
 }	
 }
 @media (max-width:350px){
-.i-naslov h1 {font-height=20px;}
+h1 {font-height=2rem;}
 .container {
 display: block;
   margin-left: -6px;
