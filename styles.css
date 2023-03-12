@@ -12,7 +12,7 @@
   text-align: center;
   text-decoration: none;
   font-style: italic;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 500;}
 .i-quiz {
    color: #b3045e;
@@ -129,18 +129,20 @@ max-width: 100px;
   to {opacity: 1}
 }  
 /* Responsive Media Queries 
-@media (max-width:1190px){}
-@media (max-width:1000px){}
+@media (max-width:1190px){
+.i-naslov {font-size: 28px;}}
+@media (max-width:1000px){
+.i-naslov {font-size: 28px;}}
 */ 
 @media (max-width:900px){
-.i-naslov {font-size=2em;}
+.i-naslov {font-size: 28px;}
 .prev, .next {
 margin-top: 70px;
 
 padding: 12px;	
 }}
 @media (max-width:750px){
-.i-naslov {font-size=2em;}
+.i-naslov {font-size: 28px;}
 .prev, .next {
 margin-top: 70px;
 margin-left: 30px;
@@ -162,7 +164,7 @@ padding: 10px;
   font-size: 25px;}
 }  
 @media (max-width:500px){
--i-naslov {font-size=2em;}
+-i-naslov {font-size: 28px;}
 .container {
 display: block;
   margin-left: -6px; 
@@ -192,7 +194,7 @@ padding: 10px;}
 }	
 }
 @media (max-width:350px){
-.i-naslov {font-size=2em;}
+.i-naslov { font-size: 28px;}
 .container {
 display: block;
   margin-left: -6px;
