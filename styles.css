@@ -12,7 +12,7 @@
   text-align: center;
   text-decoration: none;
   font-style: italic;
-  font-size: 35px;
+  font-size: 36px;
   font-weight: 500;}
 .i-quiz {
    color: #b3045e;
@@ -128,12 +128,13 @@ max-width: 100px;
   from {opacity: .4}
   to {opacity: 1}
 }  
-/* Responsive Media Queries 
+/* Responsive Media Queries*/  
 @media (max-width:1190px){
-.i-naslov {font-size: 28px;}}
+.i-naslov {font-size: 30px;}}
+
 @media (max-width:1000px){
-.i-naslov {font-size: 28px;}}
-*/ 
+.i-naslov {font-size: 30px;}}
+
 @media (max-width:900px){
 .i-naslov {font-size: 28px;}
 .prev, .next {
